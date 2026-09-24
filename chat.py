@@ -1,7 +1,7 @@
+# Author Theju
 import chromadb
 from sentence_transformers import SentenceTransformer
 from ollama import chat
-
 
 # 1. Load the embedding model
 model = SentenceTransformer(
